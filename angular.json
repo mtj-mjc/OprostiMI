@@ -17,7 +17,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs",
+            "outputPath": {
+              "base": "docs",
+              "browser": "",
+              "server": "node-server",
+              "media": "resources"
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
