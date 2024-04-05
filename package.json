@@ -1,10 +1,10 @@
 {
-  "name": "oprosti-mi",
+  "name": "regnum-dei",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/OprostiMI/",
+    "build": "ng build --base-href=/regnum-dei/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
