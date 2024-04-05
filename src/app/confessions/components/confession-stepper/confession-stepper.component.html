@@ -1,0 +1,10 @@
+@for (step of confession.steps; track confession.title) {
+<h1>{{ step.title }}</h1>
+@for (question of step.questions; track question.question) {
+<div class="card" style="width: 18rem">
+  <div class="card-body">
+    <h5 class="card-title">{{ question.question }}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">{{ step.title }}</h6>
+  </div>
+</div>
+} }
