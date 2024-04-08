@@ -1,1 +1,8 @@
-{ "test": "Test" }
+{
+  "navigation": { "brand": "Regnum Dei" },
+  "startPage": {
+    "title": "Confess Dei",
+    "subtitle": "Ispitaj svoju savjest",
+    "action": "Započmi"
+  }
+}

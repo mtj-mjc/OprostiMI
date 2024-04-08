@@ -10,6 +10,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { routes } from './app.routes';
 import { ConfessionsModule } from './confessions/confessions.module';
+import { StartPageModule } from './start-page/start-page.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,6 +26,7 @@ import { ConfessionsModule } from './confessions/confessions.module';
         deps: [HttpClient],
       },
     }),
+    StartPageModule,
     ConfessionsModule,
   ],
   providers: [provideRouter(routes)],

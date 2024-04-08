@@ -1,7 +1,9 @@
-@for (confession of confessions; track confession) {
-<button type="button" class="btn btn-outline-primary">
-  {{ confession.title }}
-</button>
-}
+<div class="confession-selection">
+  @for (confession of confessions; track confession) {
+  <button type="button" class="btn btn-outline-primary">
+    {{ confession.title }}
+  </button>
+  }
+</div>
 
 <rd-confession-stepper [confession]="confessions[0]"></rd-confession-stepper>

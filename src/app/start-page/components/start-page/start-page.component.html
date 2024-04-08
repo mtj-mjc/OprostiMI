@@ -1,0 +1,18 @@
+<div class="start-page">
+  <rd-navigation></rd-navigation>
+  <div class="start-page-text">
+    <div class="start-page-title">{{ "startPage.title" | translate }}</div>
+    <div class="start-page-subtitle">
+      {{ "startPage.subtitle" | translate }}
+    </div>
+    <div class="start-page-action">
+      <button
+        type="button"
+        class="btn btn-outline-primary"
+        (click)="getStartedClicked.emit()"
+      >
+        {{ "startPage.action" | translate }}
+      </button>
+    </div>
+  </div>
+</div>

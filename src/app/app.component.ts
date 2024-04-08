@@ -20,4 +20,9 @@ export class AppComponent {
     translate.setDefaultLang('hr');
     translate.use('hr');
   }
+
+  scroll(elementId: string) {
+    let el = document.getElementById(elementId)!;
+    el.scrollIntoView({ behavior: 'smooth' });
+  }
 }
